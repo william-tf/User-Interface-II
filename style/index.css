@@ -109,7 +109,13 @@ blockquote, q {
         padding:1.5%;
     }
     .banner{
-        background:#0CABF9;
+        background: url(https://cdn.miscellaneoushi.com/3200x1200/20121028/coding%203200x1200%20wallpaper_www.miscellaneoushi.com_84.jpg);
+        width:100%;
+        height:40vh;
+        position:relative;
+        background-repeat:no-repeat;
+        background-size:cover;
+        background-position:center;
     }
     .projects{
         display:flex;
@@ -120,6 +126,7 @@ blockquote, q {
     .projects .images{
         display:flex;
         align-items:stretch;
+        height:400px;
         
     }
     .projects .projectsp{
@@ -132,14 +139,17 @@ blockquote, q {
         
         padding:3%;
         background:#0CABF9;
-        border:1px solid black;
+        
     }
     footer nav{
         text-align:center;
-        border:1px solid black;
+        
         padding:0.5% 1%;
         border-radius:10px;
         text-decoration:none;
         width:5%;
         background:#ffa6ff;
+    }
+    footer nav a{
+        text-decoration:none;
     }
