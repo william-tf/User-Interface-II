@@ -153,3 +153,96 @@ blockquote, q {
     footer nav a{
         text-decoration:none;
     }
+    @media (max-width: 800px){
+        .head{
+            text-align:center;
+        }
+        .head nav{
+            text-decoration: none;
+            display:flex;
+            flex-direction:column;
+            justify-content:center;
+            text-align:center;
+            width:100%;
+            border-radius:10px;
+            padding:1% 0;
+            color:#fff;
+            border:2px red;
+        }
+        .toplinks{
+            display:flex;
+            flex-direction:column;
+            text-align:center;
+            align-items:center;
+            align-content:center;
+        }
+        .projects{
+            display:flex;
+            flex-direction:column;
+            
+        }
+        .images1{
+            display:flex;
+            flex-direction:column;
+            width:100%;
+        }
+        .images2{
+            display:flex;
+            flex-direction:row;
+        }
+        footer nav{
+            text-align:center;
+            padding:1% 0;
+            border-radius:10px;
+            text-decoration:none;
+            width:20%;
+            background:#ffa6ff;
+       
+        
+    }
+    @media (max-width:500px){
+        .head{
+            text-align:center;
+        }
+        .head nav{
+            text-decoration: none;
+            display:flex;
+            flex-direction:column;
+            justify-content:center;
+            text-align:center;
+            width:100%;
+            border-radius:10px;
+            padding:1% 0;
+            color:#fff;
+            border:2px red;
+        }
+        .toplinks{
+            display:flex;
+            flex-direction:column;
+            text-align:center;
+            align-items:center;
+            align-content:center;
+        }
+        .projects{
+            display:flex;
+            flex-direction:column;
+            
+        }
+        .images1{
+            display:flex;
+            flex-direction:column;
+            width:100%;
+        }
+        .images2{
+            display:flex;
+            flex-direction:row;
+        }
+        footer nav{
+            text-align:center;
+            padding:1% 0;
+            border-radius:10px;
+            text-decoration:none;
+            width:20%;
+            background:#ffa6ff;
+        }
+    }
